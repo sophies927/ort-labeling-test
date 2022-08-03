@@ -1,7 +1,7 @@
 ---
 name: Build
-about: Describe this issue template's purpose here.
-title: ''
+about: issues related to builds
+title: "[BUILD] *issue title*"
 labels: build
 assignees: ''
 
