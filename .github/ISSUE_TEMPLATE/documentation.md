@@ -28,13 +28,13 @@ If you identify that your issue is urgent, please provide more information (e.g.
 **System information**
 For each of the following line items, provide the information listed to ensure that your request is addressed in a timely manner. If your submission is missing required information, a “triage:more-info-needed” label will be applied, and you will not receive a response from the engineering team until you have made necessary updates.
 
-- OS Platform and Distribution (e.g., Linux Ubuntu 16.04) – Android, iOS, Windows, macOS, Jetson
+- OS Platform and Distribution (e.g., Linux Ubuntu 16.04) – 
 - ONNX Runtime Installation (source or binary) – 
 - ONNX Runtime Version – 
 - API (e.g., C++, C#, Java, JavaScript, Python, Rust) – 
 - Execution Provider (e.g., DirectML, CUDA, NNAPI, Nuphar, OpenVINO) – 
 
-Provide the following additional information, if applicable:
+Provide the following additional information, *if applicable*:
 - Python Version – 
 - Visual Studio Version – 
 - GCC/Compiler Version – 
