@@ -19,7 +19,7 @@ body:
       placeholder: ex. /#12345
     validations:
       required: false
-    - type: markdown
+  - type: markdown
     attributes:
       value: |
         Before submitting your request, please review past submissions to ensure that it is not a duplicate of a known issue.
