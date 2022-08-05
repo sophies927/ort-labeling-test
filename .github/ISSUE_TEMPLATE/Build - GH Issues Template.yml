@@ -16,7 +16,7 @@ body:
     attributes:
       label: Theme identification
       description: If there is a previous issue that is similar to (but not exactly the same as) your issue, please list the issue number below.
-      placeholder: ex. |#12345
+      placeholder: ex. 12345 - Quantized ONNX model output
     validations:
       required: false
   - type: markdown
@@ -47,7 +47,7 @@ body:
     attributes:
       value: |
         # System information
-        **For each of the following items, provide the information listed to ensure that your request is addressed in a timely manner. If your submission is missing required information, a *triage:more-info-needed* label will be applied, and you will not receive a response from the engineering team until you have made necessary updates.**
+        For each of the following items, provide the information listed to ensure that your request is addressed in a timely manner. If your submission is missing required information, a *triage:more-info-needed* label will be applied, and you will not receive a response from the engineering team until you have made necessary updates.
   - type: input
     id: os-plat-dist
     attributes:
