@@ -2,7 +2,7 @@ name: Build
 description: issues related to builds
 title: "[BUILD]: "
 labels: ["build"]
-assignees:
+assignees: "sophies927"
 body:
   - type: textarea
     id: bug-description
