@@ -19,6 +19,7 @@ body:
   - type: input
     id: theme-id
     attributes:
+      label: Theme identification
       description: If there is a previous issue that is similar to (but not exactly the same as) your issue, please list the issue number below.
       placeholder: ex. #12345
     validations:
