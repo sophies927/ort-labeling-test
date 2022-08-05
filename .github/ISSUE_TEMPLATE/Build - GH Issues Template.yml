@@ -1,4 +1,4 @@
-name: Build
+name: Build YAML
 description: issues related to builds
 title: "[BUILD]: "
 labels: ["build"]
