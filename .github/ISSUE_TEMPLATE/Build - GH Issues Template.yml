@@ -10,20 +10,21 @@ body:
       label: Describe the bug
       description: Provide a clear and concise description of the bug/issue you are experiencing.
     validations:
-      required: false
-  - type: markdown
-    attributes:
-      value: |
-        Before submitting your request, please review past submissions to ensure that it is not a duplicate of a known issue.
-        If your request has been submitted previously, please add a comment to the initial request noting that you are experiencing the same bug/issue. Most importantly, do not proceed with your submission; duplicate requests make the jobs of engineering team members more difficult, and if your request is identified as a duplicate, it will be closed.
+      required: true
   - type: input
     id: theme-id
     attributes:
       label: Theme identification
       description: If there is a previous issue that is similar to (but not exactly the same as) your issue, please list the issue number below.
-      placeholder: ex. #12345
+      placeholder: ex. /#12345
     validations:
-      required: true
+      required: false
+    - type: markdown
+    attributes:
+      value: |
+        Before submitting your request, please review past submissions to ensure that it is not a duplicate of a known issue.
+        
+        If your request has been submitted previously, please add a comment to the initial request noting that you are experiencing the same bug/issue. Most importantly, do not proceed with your submission; duplicate requests make the jobs of engineering team members more difficult, and if your request is identified as a duplicate, it will be closed.
   - type: dropdown
     id: urgency
     attributes:
@@ -45,12 +46,14 @@ body:
   - type: markdown
     attributes:
       value: |
-        For each of the following line items, provide the information listed to ensure that your request is addressed in a timely manner. If your submission is missing required information, a “triage:more-info-needed” label will be applied, and you will not receive a response from the engineering team until you have made necessary updates.
+        **For each of the following items, provide the information listed to ensure that your request is addressed in a timely manner. If your submission is missing required information, a “triage:more-info-needed” label will be applied, and you will not receive a response from the engineering team until you have made necessary updates.**
   - type: input
     id: os-plat-dist
     attributes:
       label: OS Platform and Distribution
       placeholder: ex. Linux Ubuntu 16.04
+    validations:
+      required: true
   - type: dropdown
     id: ort-installation
     attributes:
@@ -65,6 +68,8 @@ body:
     attributes:
       label: ONNX Runtime Version
       placeholder: ex. 1.12.1
+    validations:
+      required: true
   - type: dropdown
     id: api
     attributes:
@@ -83,6 +88,8 @@ body:
     attributes:
       label: API Version
       placeholder: ex. 3.9.13
+    validations:
+      required: true
   - type: dropdown
     id: ep
     attributes:
@@ -108,23 +115,35 @@ body:
     attributes:
       label: EP Version
       placeholder: ex. 2022.1
+    validations:
+      required: true
   - type: input
     id: vs-version
     attributes:
-      label: Visual Studio Version
+      label: Visual Studio Version (if applicable)
+      placeholder: ex. 16.11.17
   - type: input
     id: comp-version
     attributes:
-      label: GCC/Compiler Version
+      label: GCC/Compiler Version (if compiling from source)
+      placeholder: ex. 4.8.3
   - type: input
     id: mod-mem
     attributes:
       label: GPU Model and Memory
+      placeholder: ex. GTX 1070
+  - type: textarea
+    id: reproducibility
+    attributes:
+      label: To reproduce
+      description: Code to reproduce your issue (if necessary).
   - type: markdown
     attributes:
       value: |
         Please provide enough information/code for someone else to reproduce the behavior. If an engineering team member cannot reproduce your request when reviewing it, a “triage:more-info-needed” label will be applied, and you will not receive a response from the engineering team until you have made necessary updates to your request.
+        
         Tools like Google Colab and GitHub Codespaces can be used to more easily share and collaborate on code. If you decide to use one of these tools, please add a link to your workspace.
+        
         Attach the ONNX model to your request (where applicable) to expedite investigation.
   - type: textarea
     attributes:
