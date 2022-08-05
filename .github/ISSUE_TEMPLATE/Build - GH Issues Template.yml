@@ -13,7 +13,6 @@ body:
       required: false
   - type: markdown
     attributes:
-      label:
       value: |
         Before submitting your request, please review past submissions to ensure that it is not a duplicate of a known issue.
         If your request has been submitted previously, please add a comment to the initial request noting that you are experiencing the same bug/issue. Most importantly, do not proceed with your submission; duplicate requests make the jobs of engineering team members more difficult, and if your request is identified as a duplicate, it will be closed.
@@ -122,7 +121,6 @@ body:
       label: GPU Model and Memory
   - type: markdown
     attributes:
-      label:
       value: |
         Please provide enough information/code for someone else to reproduce the behavior. If an engineering team member cannot reproduce your request when reviewing it, a “triage:more-info-needed” label will be applied, and you will not receive a response from the engineering team until you have made necessary updates to your request.
         Tools like Google Colab and GitHub Codespaces can be used to more easily share and collaborate on code. If you decide to use one of these tools, please add a link to your workspace.
