@@ -30,8 +30,8 @@ body:
       label: Urgency
       description: Is your issue urgent?
       options:
-        - Yes
-        - No
+        - "Yes"
+        - "No"
     validations:
       required: true
   - type: markdown
@@ -138,13 +138,3 @@ body:
     attributes:
       label: Additional context
       description: Add any other context about the problem here.
-  - type: dropdown
-    id: browsers
-    attributes:
-      label: What browsers are you seeing the problem on?
-      multiple: true
-      options:
-        - Firefox
-        - Chrome
-        - Safari
-        - Microsoft Edge
