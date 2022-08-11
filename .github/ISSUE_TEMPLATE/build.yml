@@ -36,6 +36,8 @@ body:
   - type: textarea
     attributes:
       label: Error / output
+    validations:
+      required: true
   - type: textarea
     attributes:
       label: Additional context
