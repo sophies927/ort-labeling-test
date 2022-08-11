@@ -1,0 +1,33 @@
+name: 07. Feature Request
+description: requests for new ONNX Runtime features
+assignees: "sophies927"
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Before submitting your request, please review past submissions to ensure that it is not a duplicate of a known feature request.
+  - type: textarea
+    id: fr-descrip
+    attributes:
+      label: Describe the feature request
+      placeholder: A clear and concise description of the feature you would like and why it should be added.
+    validations:
+      required: true
+  - type: input
+    id: ort-version
+    attributes:
+      label: ONNX Runtime Version
+      placeholder: ex. 1.12.1
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives
+      placeholder: A clear and concise description of any alternative solutions or features you've considered.
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Additional context
+      placeholder: Provide any additional context necessary for your issue to be addressed (e.g., screenshots, GPU model & memory, etc.).
