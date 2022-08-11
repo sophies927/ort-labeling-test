@@ -36,8 +36,8 @@ body:
         - Windows
         - Mac
         - Other / Unknown
-      validations:
-        required: true
+    validations:
+      required: true
   - type: dropdown
     id: train-api
     attributes:
@@ -47,8 +47,8 @@ body:
         - PyTorch 1.9
         - C++
         - Other / Unknown
-      validations:
-        required: true
+    validations:
+      required: true
   - type: dropdown
     id: hardware-accel
     attributes:
