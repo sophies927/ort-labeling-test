@@ -1,0 +1,154 @@
+name: 08. General
+description: issues that do not relate to any of the other templates
+assignees: "sophies927"
+body:
+  - type: markdown
+    attributes:
+      value: |
+        If your request is a question/idea or otherwise not related to a bug/issue or feature request, please submit to [ONNX Runtime GitHub Discussions](https://github.com/microsoft/onnxruntime/discussions).
+        Before submitting your request, please review past submissions to ensure that it is not a duplicate of a known issue.
+  - type: textarea
+    id: issue-descript
+    attributes:
+      label: Describe the issue
+    validations:
+      required: true
+  - type: textarea
+    id: urgency
+    attributes:
+      label: Urgency
+      placeholder: Is your issue urgent? If important use cases are blocked, there is a regression in ONNX Runtime functionality, or you have a strict project deadline, please elaborate here.
+    validations:
+      required: false
+  - type: markdown
+    attributes:
+      value: |
+        # System information
+        For each of the following items, provide the information listed to ensure that your request is addressed in a timely manner.
+  - type: dropdown
+    id: platform
+    attributes:
+      label: Platform
+      options:
+        - Windows
+        - Linux
+        - Mac
+        - Android
+        - iOS
+        - Web Browser
+        - Other / Unknown
+    validations:
+      required: true
+  - type: input
+    id: os-dist
+    attributes:
+      label: OS Distribution
+      placeholder: ex. 16.04
+    validations:
+      required: true
+  - type: dropdown
+    id: ort-installation
+    attributes:
+      label: ONNX Runtime Installation
+      options:
+        - Source
+        - Binary
+        - Other / Unknown
+    validations:
+      required: true
+  - type: input
+    id: ort-version
+    attributes:
+      label: ONNX Runtime Version
+      placeholder: ex. 1.12.1
+    validations:
+      required: true
+  - type: dropdown
+    id: inf-api
+    attributes:
+      label: API
+      options:
+        - Python
+        - C++
+        - C#
+        - C
+        - Java
+        - JavaScript
+        - Obj-C
+        - WinRT
+        - Other / Unknown
+    validations:
+      required: true
+  - type: input
+    id: api-version
+    attributes:
+      label: API Version
+      placeholder: ex. 3.9.13
+    validations:
+      required: true
+  - type: dropdown
+    id: arch
+    attributes:
+      label: Architecture
+      options:
+        - X64
+        - X86
+        - ARM64
+        - ARM32
+        - IBM Power
+        - Other / Unknown
+    validations:
+      required: true
+  - type: dropdown
+    id: hardware-accel
+    attributes:
+      label: Hardware Acceleration
+      options:
+        - Default CPU
+        - CoreML
+        - CUDA
+        - DirectML
+        - oneDNN
+        - OpenVINO
+        - TensorRT
+        - NNAPI
+        - ACL
+        - ArmNN
+        - MIGraphX
+        - Rockchip NPU
+        - SNPE
+        - TVM
+        - Vitis AI
+        - Other / Unknown
+    validations:
+      required: true
+  - type: input
+    id: ha-version
+    attributes:
+      label: Hardware Acceleration Version
+      placeholder: ex. 2022.1
+    validations:
+      required: true
+  - type: input
+    id: vs-version
+    attributes:
+      label: Visual Studio Version (if applicable)
+      placeholder: ex. 17.2.5
+  - type: input
+    id: comp-version
+    attributes:
+      label: GCC / Compiler Version (if installed from source)
+      placeholder: ex. 4.8.3
+  - type: textarea
+    id: reproducibility
+    attributes:
+      label: To reproduce
+      placeholder: Code to reproduce your issue (if necessary).
+  - type: textarea
+    attributes:
+      label: Expected behavior
+      placeholder: A clear and concise description of what you expected to happen.
+  - type: textarea
+    attributes:
+      label: Additional context
+      placeholder: Provide any additional context necessary for your issue to be addressed (e.g., screenshots, GPU model & memory, etc.).
