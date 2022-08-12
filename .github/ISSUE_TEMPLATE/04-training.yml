@@ -1,4 +1,4 @@
-name: 04. Training
+name: Training
 description: issues related to ONNX Runtime training
 title: "[TRAINING]: "
 labels: ["training"]
