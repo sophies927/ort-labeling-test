@@ -1,4 +1,4 @@
-name: 03. Mobile
+name: Mobile
 description: issues related to ONNX Runtime mobile
 title: "[MOBILE]: "
 labels: ["platform:mobile"]
