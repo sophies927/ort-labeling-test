@@ -1,4 +1,4 @@
-name: 05. Web
+name: Web
 description: issues related to ONNX Runtime web
 title: "[WEB]: "
 labels: ["platform:web"]
