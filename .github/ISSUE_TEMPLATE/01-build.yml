@@ -1,4 +1,4 @@
-name: 01. Build
+name: Build
 description: issues related to builds
 title: "[BUILD]: "
 labels: ["build"]
