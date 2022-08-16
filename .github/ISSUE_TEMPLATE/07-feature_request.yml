@@ -1,6 +1,5 @@
 name: Feature Request
 description: requests for new ONNX Runtime features
-assignees: "sophies927"
 body:
   - type: markdown
     attributes:
