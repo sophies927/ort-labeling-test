@@ -39,7 +39,7 @@ body:
   - type: input
     id: os-dist
     attributes:
-      label: OS Distribution
+      label: OS
       placeholder: ex. 16.04
     validations:
       required: true
