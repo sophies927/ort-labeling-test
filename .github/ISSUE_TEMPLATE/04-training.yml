@@ -2,7 +2,6 @@ name: Training
 description: issues related to ONNX Runtime training
 title: "[Training]: "
 labels: ["training"]
-assignees: "sophies927"
 body:
   - type: markdown
     attributes:
