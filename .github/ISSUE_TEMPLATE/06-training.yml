@@ -35,17 +35,6 @@ body:
         # System information
         For each of the following items, provide the information listed to ensure that your request is addressed in a timely manner.
   - type: dropdown
-    id: train-plat
-    attributes:
-      label: Platform
-      options:
-        - Linux
-        - Windows
-        - Mac
-        - Other / Unknown
-    validations:
-      required: true
-  - type: dropdown
     id: pt-version
     attributes:
       label: PyTorch Version
