@@ -49,9 +49,9 @@ body:
     validations:
       required: true
   - type: dropdown
-    id: hardware-accel
+    id: ep
     attributes:
-      label: Hardware Acceleration
+      label: Execution Provider
       options:
         - Default CPU
         - CUDA 10.2
@@ -63,9 +63,9 @@ body:
     validations:
       required: true
   - type: input
-    id: ha-version
+    id: ep-version
     attributes:
-      label: Hardware Acceleration Version
+      label: Execution Provider Library Version
       placeholder: ex. 2022.1
     validations:
       required: true
