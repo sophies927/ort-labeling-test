@@ -2,7 +2,6 @@ name: Web
 description: issues related to ONNX Runtime web
 title: "[Web]: "
 labels: ["platform:web"]
-assignees: "sophies927"
 body:
   - type: markdown
     attributes:
