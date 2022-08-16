@@ -22,7 +22,3 @@ body:
       placeholder: Note the page/URL where the documentation issue occurs.
     validations:
       required: true
-  - type: textarea
-    attributes:
-      label: Additional context
-      placeholder: Add any other context about the issue here (e.g., screenshots, etc.).
