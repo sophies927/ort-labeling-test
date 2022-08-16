@@ -2,7 +2,6 @@ name: Documentation
 description: issues related to documentation additions and revisions
 title: "[Documentation]: "
 labels: ["documentation"]
-assignees: "sophies927"
 body:
   - type: markdown
     attributes:
