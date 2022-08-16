@@ -79,13 +79,6 @@ body:
         - Other / Unknown
     validations:
       required: true
-  - type: input
-    id: api-version
-    attributes:
-      label: API Version
-      placeholder: ex. 3.9.13
-    validations:
-      required: true
   - type: dropdown
     id: arch
     attributes:
