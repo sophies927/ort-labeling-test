@@ -2,7 +2,6 @@ name: Build
 description: issues related to builds
 title: "[Build]: "
 labels: ["build"]
-assignees: "sophies927"
 body:
   - type: markdown
     attributes:
