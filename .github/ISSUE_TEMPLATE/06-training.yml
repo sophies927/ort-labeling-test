@@ -35,6 +35,23 @@ body:
         # System information
         For each of the following items, provide the information listed to ensure that your request is addressed in a timely manner.
   - type: dropdown
+    id: ort-installation
+    attributes:
+      label: ONNX Runtime Installation
+      options:
+        - Source
+        - Binary
+        - Other / Unknown
+    validations:
+      required: true
+  - type: input
+    id: ort-version
+    attributes:
+      label: ONNX Runtime Version or Commit ID
+      placeholder: ex. 1.10.1
+    validations:
+      required: true  
+  - type: dropdown
     id: pt-version
     attributes:
       label: PyTorch Version
