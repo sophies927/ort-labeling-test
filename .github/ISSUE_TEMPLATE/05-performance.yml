@@ -142,8 +142,8 @@ body:
     attributes:
       label: Is this a quantized model?
       options:
-        - Yes
-        - No
+        - "Yes"
+        - "No"
         - Unknown
     validations:
       required: true
