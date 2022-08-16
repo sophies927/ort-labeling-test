@@ -137,3 +137,13 @@ body:
       placeholder: Include your model type and attach the model file (if possible).
     validations:
       required: true
+  - type: dropdown
+    id: quant
+    attributes:
+      label: Is this a quantized model?
+      options:
+        - Yes
+        - No
+        - Unknown
+    validations:
+      required: true
