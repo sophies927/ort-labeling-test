@@ -18,6 +18,8 @@ body:
     attributes:
       label: To reproduce
       placeholder: Code to reproduce your issue (if necessary).
+    validations:
+      required: true
   - type: textarea
     id: urgency
     attributes:
