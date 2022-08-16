@@ -11,7 +11,7 @@ body:
   - type: textarea
     id: issue-descript
     attributes:
-      label: Describe the issueInclude your issue description, expected behavior, and any additional context necessary for your issue to be addressed (e.g., screenshots, GPU model & memory, etc.).
+      label: Describe the issue
       placeholder: Include your issue description and any additional context necessary for your issue to be addressed (e.g., screenshots, GPU model & memory, etc.).
     validations:
       required: true
