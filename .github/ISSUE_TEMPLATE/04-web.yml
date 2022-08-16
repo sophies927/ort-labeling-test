@@ -58,3 +58,13 @@ body:
       placeholder: ex. 1.10.1
     validations:
       required: true
+  - type: dropdown
+    id: ep
+    attributes:
+      label: Execution Provider
+      options:
+        - WebGL
+        - WASM
+        - Other / Unknown
+    validations:
+      required: true
