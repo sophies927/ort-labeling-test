@@ -19,3 +19,9 @@ body:
       placeholder: ex. 1.12.1
     validations:
       required: true
+  - type: textarea
+    id: use-case
+    attributes:
+      label: Describe scenario use case
+    validations:
+      required: true
