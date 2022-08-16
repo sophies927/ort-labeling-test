@@ -1,35 +1,33 @@
-- name: RegEx Issue Labeler
-  uses: github/issue-labeler@v2.5
-  # Add/remove 'ep:ACL' label if issue contains the word 'ACL'
-  ep:ACL:
-    - '(ACL)'
-  # Add/remove 'ep:ArmNN' label if issue contains the word 'ArmNN'
-  ep:ArmNN:
-    - '(ArmNN)'
-  # Add/remove 'ep:CUDA' label if issue contains the word 'CUDA'
-  ep:CUDA:
-    - '(CUDA)'
-  # Add/remove 'ep:DML' label if issue contains the word 'DirectML'
-  ep:DML:
-    - '(DirectML)'
-  # Add/remove 'ep:MIGraphX' label if issue contains the word 'MIGraphX'
-  ep:MIGraphX:
-    - '(MIGraphX)'
-  # Add/remove 'ep:oneDNN' label if issue contains the word 'oneDNN'
-  ep:oneDNN:
-    - '(oneDNN)'
-  # Add/remove 'ep:OpenVINO' label if issue contains the word 'OpenVINO'
-  ep:OpenVINO:
-    - '(OpenVINO)'
-  # Add/remove 'ep:RockchipNPU' label if issue contains the word 'Rockchip NPU'
-  ep:RockchipNPU:
-    - '(Rockchip NPU)'
-  # Add/remove 'ep:TensorRT' label if issue contains the word 'TensorRT'
-  ep:TensorRT:
-    - '(TensorRT)'
-  # Add/remove 'ep:tvm' label if issue contains the word 'TVM'
-  ep:tvm:
-    - '(TVM)'
-  # Add/remove 'ep:VitisAI' label if issue contains the word 'Vitis AI'
-  ep:VitisAI:
-    - '(Vitis AI)'
+# Add/remove 'ep:ACL' label if issue contains the word 'ACL'
+ep:ACL:
+  - '(ACL)'
+# Add/remove 'ep:ArmNN' label if issue contains the word 'ArmNN'
+ep:ArmNN:
+  - '(ArmNN)'
+# Add/remove 'ep:CUDA' label if issue contains the word 'CUDA'
+ep:CUDA:
+  - '(CUDA)'
+# Add/remove 'ep:DML' label if issue contains the word 'DirectML'
+ep:DML:
+  - '(DirectML)'
+# Add/remove 'ep:MIGraphX' label if issue contains the word 'MIGraphX'
+ep:MIGraphX:
+  - '(MIGraphX)'
+# Add/remove 'ep:oneDNN' label if issue contains the word 'oneDNN'
+ep:oneDNN:
+  - '(oneDNN)'
+# Add/remove 'ep:OpenVINO' label if issue contains the word 'OpenVINO'
+ep:OpenVINO:
+  - '(OpenVINO)'
+# Add/remove 'ep:RockchipNPU' label if issue contains the word 'Rockchip NPU'
+ep:RockchipNPU:
+  - '(Rockchip NPU)'
+# Add/remove 'ep:TensorRT' label if issue contains the word 'TensorRT'
+ep:TensorRT:
+  - '(TensorRT)'
+# Add/remove 'ep:tvm' label if issue contains the word 'TVM'
+ep:tvm:
+  - '(TVM)'
+# Add/remove 'ep:VitisAI' label if issue contains the word 'Vitis AI'
+ep:VitisAI:
+  - '(Vitis AI)'
