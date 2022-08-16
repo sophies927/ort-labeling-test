@@ -59,7 +59,7 @@ body:
   - type: input
     id: ort-version
     attributes:
-      label: ONNX Runtime Version
+      label: ONNX Runtime Version or Commit ID
       placeholder: ex. 1.12.1
     validations:
       required: true
