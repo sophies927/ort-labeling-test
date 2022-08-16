@@ -11,7 +11,8 @@ body:
   - type: textarea
     id: issue-descript
     attributes:
-      label: Describe the issue
+      label: Describe the issueInclude your issue description, expected behavior, and any additional context necessary for your issue to be addressed (e.g., screenshots, GPU model & memory, etc.).
+      placeholder: Include your issue description and any additional context necessary for your issue to be addressed (e.g., screenshots, GPU model & memory, etc.).
     validations:
       required: true
   - type: textarea
@@ -37,7 +38,3 @@ body:
       label: Error / output
     validations:
       required: true
-  - type: textarea
-    attributes:
-      label: Additional context
-      placeholder: Provide any additional context necessary for your issue to be addressed (e.g., dependency version, screenshots, GPU model & memory, etc.).
