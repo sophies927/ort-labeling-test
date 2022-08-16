@@ -1,6 +1,5 @@
 name: General
 description: issues that do not relate to any of the other templates
-assignees: "sophies927"
 body:
   - type: markdown
     attributes:
