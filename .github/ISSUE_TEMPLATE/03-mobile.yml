@@ -104,6 +104,8 @@ body:
         - NNAPI
         - SNPE
         - Other / Unknown
+      input: select
+      multiple: yes
     validations:
       required: true
   - type: input
