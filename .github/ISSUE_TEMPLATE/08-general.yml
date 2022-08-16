@@ -120,6 +120,7 @@ body:
         - TVM
         - Vitis AI
         - Other / Unknown
+      multiple: yes
     validations:
       required: true
   - type: input
