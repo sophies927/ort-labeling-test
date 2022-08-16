@@ -14,7 +14,7 @@ body:
       label: Describe the issue
     validations:
       required: true
-      placeholder: In addition to your issue description, please include expected behavior.
+      placeholder: Include your issue description, expected behavior, and any additional context necessary for your issue to be addressed (e.g., screenshots, GPU model & memory, etc.).
   - type: textarea
     id: reproducibility
     attributes:
@@ -77,7 +77,3 @@ body:
       placeholder: ex. 2022.1
     validations:
       required: false
-  - type: textarea
-    attributes:
-      label: Additional context
-      placeholder: Provide any additional context necessary for your issue to be addressed (e.g., screenshots, GPU model & memory, etc.).
