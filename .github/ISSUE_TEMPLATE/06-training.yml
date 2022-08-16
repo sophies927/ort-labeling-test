@@ -46,13 +46,12 @@ body:
     validations:
       required: true
   - type: dropdown
-    id: train-api
+    id: pt-version
     attributes:
-      label: API
+      label: PyTorch Version
       options:
         - PyTorch 1.8.1
         - PyTorch 1.9
-        - C++
         - Other / Unknown
     validations:
       required: true
