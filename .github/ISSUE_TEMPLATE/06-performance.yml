@@ -1,7 +1,6 @@
 name: Performance
 description: issues related to performance
 title: "[Performance]: "
-assignees: "sophies927"
 body:
   - type: markdown
     attributes:
