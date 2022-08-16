@@ -34,13 +34,6 @@ body:
       value: |
         # System information
         For each of the following items, provide the information listed to ensure that your request is addressed in a timely manner.
-  - type: input
-    id: os-dist
-    attributes:
-      label: OS
-      placeholder: ex. Ubuntu 20.04
-    validations:
-      required: true
   - type: dropdown
     id: ort-installation
     attributes:
