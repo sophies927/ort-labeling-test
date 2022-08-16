@@ -121,7 +121,7 @@ body:
       label: Execution Provider Library Version
       placeholder: ex. 2022.1
     validations:
-      required: true
+      required: false
   - type: dropdown
     id: model
     attributes:
