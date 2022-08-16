@@ -66,5 +66,6 @@ body:
         - WebGL
         - WASM
         - Other / Unknown
+      multiple: yes
     validations:
       required: true
