@@ -10,8 +10,14 @@ body:
     id: issue-descript
     attributes:
       label: Describe the issue
+      placeholder: In addition to your issue description, please include expected behavior.
     validations:
       required: true
+  - type: textarea
+    id: reproducibility
+    attributes:
+      label: To reproduce
+      placeholder: Code to reproduce your issue (if necessary).
   - type: textarea
     id: urgency
     attributes:
@@ -121,15 +127,6 @@ body:
       placeholder: ex. 2022.1
     validations:
       required: false
-  - type: textarea
-    id: reproducibility
-    attributes:
-      label: To reproduce
-      placeholder: Code to reproduce your issue (if necessary).
-  - type: textarea
-    attributes:
-      label: Expected behavior
-      placeholder: A clear and concise description of what you expected to happen.
   - type: textarea
     attributes:
       label: Additional context
