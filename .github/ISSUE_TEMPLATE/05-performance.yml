@@ -130,16 +130,10 @@ body:
       placeholder: ex. 2022.1
     validations:
       required: false
-  - type: dropdown
+  - type: textarea
     id: model
     attributes:
       label: Model Type
-      options:
-        - BERT
-        - GPT2
-        - Hugging Face
-        - Longformer
-        - T5
-        - Other / Unknown
+      placeholder: Include your model type and attach the model file (if possible).
     validations:
       required: true
