@@ -21,4 +21,4 @@ body:
       label: Page / URL
       placeholder: Note the page/URL where the documentation issue occurs.
     validations:
-      required: true
+      required: false
