@@ -12,13 +12,6 @@ body:
       placeholder: A clear and concise description of the feature you would like, why it should be added, and any alternative solutions or features you've considered. Also provide any additional context necessary for your issue to be addressed (e.g., screenshots, GPU model & memory, etc.).
     validations:
       required: true
-  - type: input
-    id: ort-version
-    attributes:
-      label: ONNX Runtime Version or Commit ID
-      placeholder: ex. 1.12.1
-    validations:
-      required: true
   - type: textarea
     id: use-case
     attributes:
