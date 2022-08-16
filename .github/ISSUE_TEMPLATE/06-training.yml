@@ -12,9 +12,9 @@ body:
     id: issue-descript
     attributes:
       label: Describe the issue
+      placeholder: Include your issue description, expected behavior, and any additional context necessary for your issue to be addressed (e.g., screenshots, GPU model & memory, etc.).
     validations:
       required: true
-      placeholder: Include your issue description, expected behavior, and any additional context necessary for your issue to be addressed (e.g., screenshots, GPU model & memory, etc.).
   - type: textarea
     id: reproducibility
     attributes:
