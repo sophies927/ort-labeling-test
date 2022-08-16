@@ -38,3 +38,17 @@ body:
       label: Error / output
     validations:
       required: true
+  - type: input
+    id: vs-version
+    attributes:
+      label: Visual Studio Version
+      placeholder: ex. 17.2.5
+    validations:
+      required: true
+  - type: input
+    id: comp-version
+    attributes:
+      label: GCC / Compiler Version
+      placeholder: ex. 4.8.3
+    validations:
+      required: true
