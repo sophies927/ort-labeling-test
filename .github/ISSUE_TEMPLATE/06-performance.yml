@@ -135,16 +135,6 @@ body:
         - Other / Unknown
     validations:
       required: true
-  - type: input
-    id: vs-version
-    attributes:
-      label: Visual Studio Version (if applicable)
-      placeholder: ex. 17.2.5
-  - type: input
-    id: comp-version
-    attributes:
-      label: GCC / Compiler Version (if installed from source)
-      placeholder: ex. 4.8.3
   - type: textarea
     id: reproducibility
     attributes:
