@@ -1,6 +1,6 @@
 name: Mobile
 description: issues related to ONNX Runtime mobile
-title: "[MOBILE]: "
+title: "[Mobile]: "
 labels: ["platform:mobile"]
 assignees: "sophies927"
 body:
