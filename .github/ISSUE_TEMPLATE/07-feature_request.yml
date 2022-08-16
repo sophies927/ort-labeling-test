@@ -9,7 +9,7 @@ body:
     id: fr-descrip
     attributes:
       label: Describe the feature request
-      placeholder: A clear and concise description of the feature you would like and why it should be added. Include a clear and concise description of any alternative solutions or features you've considered and provide any additional context necessary for your issue to be addressed (e.g., screenshots, GPU model & memory, etc.).
+      placeholder: A clear and concise description of the feature you would like, why it should be added, and any alternative solutions or features you've considered. Also provide any additional context necessary for your issue to be addressed (e.g., screenshots, GPU model & memory, etc.).
     validations:
       required: true
   - type: input
