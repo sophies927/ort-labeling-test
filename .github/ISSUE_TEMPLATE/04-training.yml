@@ -1,6 +1,6 @@
 name: Training
 description: issues related to ONNX Runtime training
-title: "[TRAINING]: "
+title: "[Training]: "
 labels: ["training"]
 assignees: "sophies927"
 body:
