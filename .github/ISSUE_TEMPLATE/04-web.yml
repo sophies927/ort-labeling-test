@@ -1,6 +1,6 @@
 name: Web
 description: issues related to ONNX Runtime web
-title: "[Web]: "
+title: "[Web] "
 labels: ["platform:web"]
 body:
   - type: markdown
@@ -48,7 +48,6 @@ body:
     id: ort-version
     attributes:
       label: ONNX Runtime Version or Commit ID
-      placeholder: ex. 1.10.1
     validations:
       required: true
   - type: dropdown
