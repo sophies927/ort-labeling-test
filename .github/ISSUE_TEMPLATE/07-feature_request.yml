@@ -18,5 +18,6 @@ body:
     id: use-case
     attributes:
       label: Describe scenario use case
+      placeholder: The capability and/or customer usage scenario this request supports.
     validations:
       required: true
