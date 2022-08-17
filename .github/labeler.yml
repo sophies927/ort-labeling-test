@@ -31,3 +31,24 @@ ep:tvm:
 # Add/remove 'ep:VitisAI' label if issue contains the word 'Vitis AI'
 ep:VitisAI:
   - '(Vitis AI)'
+# Add/remove 'api:JavaScript' label if issue contains the word 'JavaScript'
+api:JavaScript:
+  - '(JavaScript)'
+# Add/remove 'api:Java' label if issue contains the word 'Java' not followed by 'Script'
+api:Java:
+  - '(Java(?!Script))'
+# Add/remove 'api' label if issue contains the word 'Python', 'C++', 'C#', 'C\b', 'Obj-C', or 'WinRT'
+api:
+  - '(Python|C++|C#|C\b|Obj-C|WinRT)'
+# Add/remove 'platform:jetson' label if issue contains the word 'Jetson' or 'jetson'
+platform:jetson:
+  - '(Jetson|jetson)'
+# Add/remove 'platform:windows' label if issue contains the word 'Windows'
+platform:windows:
+  - '(Windows)'
+# Add/remove 'model:transformer' label if issue contains the word 'BERT', 'Bert\b', 'bert\b', 'GPT2', 'gpt2', 'Hugging Face', 'HuggingFace', 'Hugging face', 'Huggingface', 'hugging face', 'huggingface', 'Longformer', 'Long former', 'longformer', 'long former', 'T5', or 't5'
+model:transformer:
+  - '(BERT|Bert\b|bert\b|GPT2|gpt2|Hugging Face|HuggingFace|Hugging face|Huggingface|hugging face|huggingface|Longformer|Long former|longformer|long former|T5|t5)'
+# Add/remove 'quantization' label contains the words 'Is this a quantized model\?\n\nYes'
+quantization:
+  - '(Is this a quantized model\?\n\nYes)'
