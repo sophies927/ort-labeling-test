@@ -49,6 +49,6 @@ platform:windows:
 # Add/remove 'model:transformer' label if issue contains the word 'BERT', 'Bert\b', 'bert\b', 'GPT2', 'gpt2', 'Hugging Face', 'HuggingFace', 'Hugging face', 'Huggingface', 'hugging face', 'huggingface', 'Longformer', 'Long former', 'longformer', 'long former', 'T5', or 't5'
 model:transformer:
   - '(BERT|Bert\b|bert\b|GPT2|gpt2|Hugging Face|HuggingFace|Hugging face|Huggingface|hugging face|huggingface|Longformer|Long former|longformer|long former|T5|t5)'
-# Add/remove 'quantization' label contains the words 'Is this a quantized model\?\n\nYes'
+# Add/remove 'quantization' label contains the words 'Is this a quantized model\?\n\nYes', 'Quantization', 'quantization', 'Quantized', or 'quantized' not preceded by 'Is this a '
 quantization:
-  - '(Is this a quantized model\?\n\nYes)'
+  - '(Is this a quantized model\?\n\nYes|Quantization|quantization|Quantized|(?<!(Is this a ))quantized)'
