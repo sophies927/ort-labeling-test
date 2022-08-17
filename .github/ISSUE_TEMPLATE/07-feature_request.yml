@@ -1,5 +1,7 @@
 name: Feature Request
 description: requests for new ONNX Runtime features
+title: "[Feature Request] "
+labels: ["feature request"]
 body:
   - type: markdown
     attributes:
