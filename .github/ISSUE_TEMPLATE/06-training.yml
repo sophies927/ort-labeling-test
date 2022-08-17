@@ -1,6 +1,6 @@
 name: Training
 description: issues related to ONNX Runtime training
-title: "[Training]: "
+title: "[Training] "
 labels: ["training"]
 body:
   - type: markdown
@@ -48,7 +48,6 @@ body:
     id: ort-version
     attributes:
       label: ONNX Runtime Version or Commit ID
-      placeholder: ex. 1.10.1
     validations:
       required: true  
   - type: dropdown
@@ -80,6 +79,5 @@ body:
     id: ep-version
     attributes:
       label: Execution Provider Library Version
-      placeholder: ex. 2022.1
     validations:
       required: false
