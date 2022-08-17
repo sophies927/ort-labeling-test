@@ -1,6 +1,6 @@
 name: Documentation
 description: issues related to documentation additions and revisions
-title: "[Documentation]: "
+title: "[Documentation] "
 labels: ["documentation"]
 body:
   - type: markdown
@@ -12,7 +12,7 @@ body:
     id: doc-descript
     attributes:
       label: Describe the documentation issue
-      placeholder: Provide a clear and concise description of the issue with current documentation. If you would like documentation to be added and there is a simple fix, feel free to do so yourself.
+      placeholder: Provide a clear and concise description of the issue with current documentation. If you would like documentation to be added and there is a simple fix, feel free to submit a PR.
     validations:
       required: true
   - type: input
