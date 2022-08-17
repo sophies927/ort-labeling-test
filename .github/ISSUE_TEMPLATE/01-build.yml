@@ -1,6 +1,6 @@
 name: Build
 description: issues related to builds
-title: "[Build]: "
+title: "[Build] "
 labels: ["build"]
 body:
   - type: markdown
@@ -42,13 +42,11 @@ body:
     id: vs-version
     attributes:
       label: Visual Studio Version
-      placeholder: ex. 17.2.5
     validations:
-      required: true
+      required: false
   - type: input
     id: comp-version
     attributes:
       label: GCC / Compiler Version
-      placeholder: ex. 4.8.3
     validations:
-      required: true
+      required: false
