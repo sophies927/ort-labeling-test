@@ -81,7 +81,7 @@ body:
         - Java
         - JavaScript
         - Obj-C
-        - WinRT
+        - WinML
         - Other / Unknown
     validations:
       required: true
