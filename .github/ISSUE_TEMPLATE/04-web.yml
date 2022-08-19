@@ -39,8 +39,8 @@ body:
     attributes:
       label: ONNX Runtime Installation
       options:
-        - Source
-        - Binary
+        - Built from Source
+        - Released Package
         - Other / Unknown
     validations:
       required: true
