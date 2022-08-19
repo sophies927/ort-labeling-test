@@ -1,5 +1,5 @@
 name: General
-description: issues that do not relate to any of the other templates
+description: other issues not related to the above
 body:
   - type: markdown
     attributes:
