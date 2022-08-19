@@ -58,8 +58,8 @@ body:
     attributes:
       label: ONNX Runtime Installation
       options:
-        - Source
-        - Binary
+        - Built from Source
+        - Released Package
         - Other / Unknown
     validations:
       required: true
@@ -126,6 +126,7 @@ body:
     id: ep-version
     attributes:
       label: Execution Provider Library Version
+      placeholder: ex. CUDA 11.6 or ROCm 5.1.1
     validations:
       required: false
   - type: textarea
