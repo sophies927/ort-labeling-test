@@ -50,14 +50,10 @@ body:
       label: ONNX Runtime Version or Commit ID
     validations:
       required: true  
-  - type: dropdown
+  - type: input
     id: pt-version
     attributes:
       label: PyTorch Version
-      options:
-        - PyTorch 1.8.1
-        - PyTorch 1.9
-        - Other / Unknown
     validations:
       required: true
   - type: dropdown
