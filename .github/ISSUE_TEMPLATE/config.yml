@@ -2,7 +2,7 @@ blank_issues_enabled: false
 contact_links:
   - name: GitHub Discussions
     url: https://github.com/microsoft/onnxruntime/issues
-    about: questions and discussions to be reviewed by a member of the ORT engineering team
+    about: questions and discussions related to ONNX Runtime
   - name: PyTorch Converter Issues
     url: https://github.com/pytorch/pytorch/issues
     about: issues related to PyTorch converter
