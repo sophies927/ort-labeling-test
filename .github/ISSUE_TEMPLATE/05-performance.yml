@@ -132,8 +132,8 @@ body:
   - type: textarea
     id: model
     attributes:
-      label: Model Type
-      placeholder: Include your model type and attach the model file (if possible).
+      label: Model File
+      placeholder: Attach the file corresponding to your model if possible.
     validations:
       required: true
   - type: dropdown
