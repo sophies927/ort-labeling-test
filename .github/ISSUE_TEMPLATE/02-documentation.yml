@@ -12,7 +12,7 @@ body:
     id: doc-descript
     attributes:
       label: Describe the documentation issue
-      placeholder: Provide a clear and concise description of the issue with current documentation. If you would like documentation to be added and there is a simple fix, feel free to submit a PR.
+      placeholder: Provide a clear and concise description of the issue with current documentation. For simple fixes, please submit a PR by clicking on the "Edit Page in GitHub" link on any https://onnxruntime.ai/docs page.
     validations:
       required: true
   - type: input
