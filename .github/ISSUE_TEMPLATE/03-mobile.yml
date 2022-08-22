@@ -63,6 +63,20 @@ body:
         - Other / Unknown
     validations:
       required: true
+  - type: dropdown
+    id: package-name
+    attributes:
+      label: Package Name (if applicable)
+      options:
+        - onnxruntime-mobile
+        - onnxruntime-android
+        - onnxruntime-mobile-objc/onnxruntime-mobile-c
+        - onnxruntime-objc/onnxruntime-c
+        - Microsoft.ML.OnnxRuntime
+        - Microsoft.ML.OnnxRuntime.Managed
+        - onnxruntime-react-native
+    validations:
+      required: false
   - type: input
     id: ort-version
     attributes:
