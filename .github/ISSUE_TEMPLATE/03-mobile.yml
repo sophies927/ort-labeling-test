@@ -63,10 +63,16 @@ body:
         - Other / Unknown
     validations:
       required: true
+  - type: input
+    id: compiler-version
+    attributes:
+      label: Compiler Version (if 'Built from Source')
+    validations:
+      required: false
   - type: dropdown
     id: package-name
     attributes:
-      label: Package Name (if applicable)
+      label: Package Name (if 'Released Package')
       options:
         - onnxruntime-mobile
         - onnxruntime-android
