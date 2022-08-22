@@ -74,12 +74,11 @@ body:
     attributes:
       label: API
       options:
-        - C++
+        - C++/C
         - C#
-        - C
-        - Java
+        - Java/Kotlin
         - JavaScript
-        - Obj-C
+        - Objective-C/Swift
         - Other / Unknown
     validations:
       required: true
