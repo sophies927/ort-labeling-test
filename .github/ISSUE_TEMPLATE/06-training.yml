@@ -19,7 +19,7 @@ body:
     id: reproducibility
     attributes:
       label: To reproduce
-      placeholder: Code to reproduce your issue (if necessary).
+      placeholder: Steps to reproduce the issue. As applicable, please provide code and model(s) if possible.
     validations:
       required: true
   - type: textarea
