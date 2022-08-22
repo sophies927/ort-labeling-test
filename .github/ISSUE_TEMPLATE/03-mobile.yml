@@ -41,6 +41,9 @@ body:
       options:
         - Android
         - iOS
+        - Xamarin
+        - MAUI
+        - React Native
         - Other / Unknown
     validations:
       required: true
