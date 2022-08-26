@@ -1,8 +1,7 @@
 name: Mobile
 description: issues related to ONNX Runtime mobile
-title: "[MOBILE]: "
+title: "[Mobile] "
 labels: ["platform:mobile"]
-assignees: "sophies927"
 body:
   - type: markdown
     attributes:
@@ -13,6 +12,14 @@ body:
     id: issue-descript
     attributes:
       label: Describe the issue
+      placeholder: Include your issue description, expected behavior, and any additional context necessary for your issue to be addressed (e.g., screenshots, GPU model & memory, etc.).
+    validations:
+      required: true
+  - type: textarea
+    id: reproducibility
+    attributes:
+      label: To reproduce
+      placeholder: Steps to reproduce the issue. As applicable, please provide code and model(s) if possible.
     validations:
       required: true
   - type: textarea
@@ -34,14 +41,16 @@ body:
       options:
         - Android
         - iOS
+        - Xamarin
+        - MAUI
+        - React Native
         - Other / Unknown
     validations:
       required: true
   - type: input
     id: os-dist
     attributes:
-      label: OS Distribution
-      placeholder: ex. 16.04
+      label: OS Version
     validations:
       required: true
   - type: dropdown
@@ -49,37 +58,48 @@ body:
     attributes:
       label: ONNX Runtime Installation
       options:
-        - Source
-        - Binary
+        - Built from Source
+        - Released Package
         - Other / Unknown
     validations:
       required: true
   - type: input
+    id: compiler-version
+    attributes:
+      label: Compiler Version (if 'Built from Source')
+    validations:
+      required: false
+  - type: dropdown
+    id: package-name
+    attributes:
+      label: Package Name (if 'Released Package')
+      options:
+        - onnxruntime-mobile
+        - onnxruntime-android
+        - onnxruntime-mobile-objc/onnxruntime-mobile-c
+        - onnxruntime-objc/onnxruntime-c
+        - Microsoft.ML.OnnxRuntime
+        - Microsoft.ML.OnnxRuntime.Managed
+        - onnxruntime-react-native
+    validations:
+      required: false
+  - type: input
     id: ort-version
     attributes:
-      label: ONNX Runtime Version
-      placeholder: ex. 1.12.1
+      label: ONNX Runtime Version or Commit ID
     validations:
       required: true
   - type: dropdown
     id: inf-api
     attributes:
-      label: API
+      label: ONNX Runtime API
       options:
-        - C++
+        - C++/C
         - C#
-        - C
-        - Java
+        - Java/Kotlin
         - JavaScript
-        - Obj-C
+        - Objective-C/Swift
         - Other / Unknown
-    validations:
-      required: true
-  - type: input
-    id: api-version
-    attributes:
-      label: API Version
-      placeholder: ex. 3.9.13
     validations:
       required: true
   - type: dropdown
@@ -95,48 +115,22 @@ body:
     validations:
       required: true
   - type: dropdown
-    id: hardware-accel
+    id: ep
     attributes:
-      label: Hardware Acceleration
+      label: Execution Provider
       options:
         - Default CPU
         - CoreML
         - NNAPI
         - SNPE
         - Other / Unknown
+      multiple: yes
     validations:
       required: true
   - type: input
-    id: ha-version
+    id: ep-version
     attributes:
-      label: Hardware Acceleration Version
-      placeholder: ex. 2022.1
+      label: Execution Provider Library Version
+      placeholder: ex. CUDA 11.6 or ROCm 5.1.1
     validations:
-      required: true
-  - type: input
-    id: vs-version
-    attributes:
-      label: Visual Studio Version (if applicable)
-      placeholder: ex. 17.2.5
-  - type: input
-    id: comp-version
-    attributes:
-      label: GCC / Compiler Version (if installed from source)
-      placeholder: ex. 4.8.3
-  - type: textarea
-    id: reproducibility
-    attributes:
-      label: To reproduce
-      placeholder: Code to reproduce your issue (if necessary).
-    validations:
-      required: true
-  - type: textarea
-    attributes:
-      label: Expected behavior
-      placeholder: A clear and concise description of what you expected to happen.
-    validations:
-      required: true
-  - type: textarea
-    attributes:
-      label: Additional context
-      placeholder: Provide any additional context necessary for your issue to be addressed (e.g., screenshots, GPU model & memory, etc.).
+      required: false

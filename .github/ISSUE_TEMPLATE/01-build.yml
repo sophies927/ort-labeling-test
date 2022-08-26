@@ -1,8 +1,7 @@
 name: Build
 description: issues related to builds
-title: "[BUILD]: "
+title: "[Build] "
 labels: ["build"]
-assignees: "sophies927"
 body:
   - type: markdown
     attributes:
@@ -13,6 +12,7 @@ body:
     id: issue-descript
     attributes:
       label: Describe the issue
+      placeholder: Include your issue description and any additional context necessary for your issue to be addressed (e.g., screenshots, GPU model & memory, etc.).
     validations:
       required: true
   - type: textarea
@@ -38,7 +38,15 @@ body:
       label: Error / output
     validations:
       required: true
-  - type: textarea
+  - type: input
+    id: vs-version
     attributes:
-      label: Additional context
-      placeholder: Provide any additional context necessary for your issue to be addressed (e.g., dependency version, screenshots, GPU model & memory, etc.).
+      label: Visual Studio Version
+    validations:
+      required: false
+  - type: input
+    id: comp-version
+    attributes:
+      label: GCC / Compiler Version
+    validations:
+      required: false

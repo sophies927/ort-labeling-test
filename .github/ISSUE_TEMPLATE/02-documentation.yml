@@ -1,8 +1,7 @@
 name: Documentation
 description: issues related to documentation additions and revisions
-title: "[DOCUMENTATION]: "
+title: "[Documentation] "
 labels: ["documentation"]
-assignees: "sophies927"
 body:
   - type: markdown
     attributes:
@@ -13,7 +12,7 @@ body:
     id: doc-descript
     attributes:
       label: Describe the documentation issue
-      placeholder: Provide a clear and concise description of the issue with current documentation. If you would like documentation to be added and there is a simple fix, feel free to do so yourself.
+      placeholder: Provide a clear and concise description of the issue with current documentation. For simple fixes, please submit a PR by clicking on the "Edit Page in GitHub" link on any https://onnxruntime.ai/docs page.
     validations:
       required: true
   - type: input
@@ -22,8 +21,4 @@ body:
       label: Page / URL
       placeholder: Note the page/URL where the documentation issue occurs.
     validations:
-      required: true
-  - type: textarea
-    attributes:
-      label: Additional context
-      placeholder: Add any other context about the issue here (e.g., screenshots, etc.).
+      required: false
