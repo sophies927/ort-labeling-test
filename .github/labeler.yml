@@ -52,3 +52,6 @@ model:transformer:
 # Add/remove 'quantization' label contains the words 'Is this a quantized model\?\n\nYes', 'Quantization', 'quantization', 'Quantized', or 'quantized' not preceded by 'Is this a '
 quantization:
   - '(Is this a quantized model\?\n\nYes|Quantization|quantization|Quantized|(?<!(Is this a ))quantized)'
+# Add/remove 'build' label if issue contains the word 'ACL', 'ArmNN', 'CUDA', 'DirectML', 'MIGraphX', 'oneDNN', 'OpenVINO', 'Rockchip NPU', 'TensorRT', 'TVM', 'Vitis AI', 'Java', 'Python', 'C++', 'C#', 'C\b', or 'Obj-C'
+build:
+  - '(ACL|ArmNN|CUDA|DirectML|MIGraphX|oneDNN|OpenVINO|Rockchip NPU|TensorRT|TVM|Vitis AI|Java|Python|C++|C#|C\b|Obj-C)'
